@@ -192,7 +192,7 @@ function updateAppGradle(file) {
           "',\n" +
           "                VIVO_APPID    : '" +
           pushConfig.VIVO_APPID +
-          "'\n" +
+          "',\n" +
           "                HONOR_APPID   : '" +
           pushConfig.HONOR_APPID +
           "'\n" +
