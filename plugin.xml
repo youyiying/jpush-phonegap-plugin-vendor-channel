@@ -114,8 +114,6 @@
         </config-file>
 
         <config-file target="AndroidManifest.xml" parent="/manifest/application" mode="merge">
-
-
             <service android:name="cn.jiguang.cordova.push.PushService"
                      android:process=":pushcore"
                      android:exported="false">
@@ -132,9 +130,9 @@
             </receiver>
         </config-file>
 
-        <!--<lib-file src="src/android/libs/jpush-android-4.2.8.jar" />-->
-        <!--<lib-file src="src/android/libs/jpush-android-plugin-huawei-v4.3.0.jar" />-->
-        <lib-file src="src/android/libs/com.heytap.msp-push-2.1.0.aar"/>
+        <lib-file src="src/android/libs/com.heytap.msp-push-3.0.0.aar"/>
+        <lib-file src="src/android/libs/HiPushSdkCommon-v6.0.4.101-release.aar"/>
+        <lib-file src="src/android/libs/HiPushSdk-v6.0.4.101-release.aar"/>
 
         <source-file src="src/android/PushService.java" target-dir="src/cn/jiguang/cordova/push"/>
         <source-file src="src/android/JPushPlugin.java" target-dir="src/cn/jiguang/cordova/push"/>

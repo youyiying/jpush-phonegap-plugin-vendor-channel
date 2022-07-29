@@ -193,6 +193,9 @@ function updateAppGradle(file) {
           "                VIVO_APPID    : '" +
           pushConfig.VIVO_APPID +
           "'\n" +
+          "                HONOR_APPID   : '" +
+          pushConfig.HONOR_APPID +
+          "'\n" +
           "        ]\n";
       }
     }
@@ -207,14 +210,17 @@ function updateAppGradle(file) {
           "        implementation 'cn.jiguang.sdk.plugin:meizu:4.7.2'\n" +
           "        implementation 'cn.jiguang.sdk.plugin:vivo:4.7.2'\n" +
           "        implementation 'cn.jiguang.sdk.plugin:oppo:4.7.2'\n" +
-          "        implementation 'cn.jiguang.sdk.plugin:xiaomi:4.7.2' \n"
+          "        implementation(name: 'com.heytap.msp-push-3.0.0', ext: 'aar')\n" +
+          "        implementation 'com.google.code.gson:gson:2.6.2'\n" +
+          "        implementation 'commons-codec:commons-codec:1.6'\n" +
+          "        implementation 'androidx.annotation:annotation:1.1.0'\n" +
+          "        implementation 'cn.jiguang.sdk.plugin:xiaomi:4.7.2'\n" +
+          "        implementation 'cn.jiguang.sdk.plugin:honor:4.7.2'\n" +
+          "        implementation(name: 'HiPushSdk-v6.0.4.101-release', ext: 'aar')\n" +
+          "        implementation(name: 'HiPushSdkCommon-v6.0.4.101-release', ext: 'aar')\n"
       );
     }
-    lines.splice(
-      lines.length - 1,
-      0,
-      "apply plugin: 'com.huawei.agconnect' // ADD THIS AT THE TOP"
-    );
+    lines.splice(lines.length - 1, 0, "apply plugin: 'com.huawei.agconnect'");
     FSUtils.writeFile(file, lines.join(NEW_LINE));
   }
 }
