@@ -203,8 +203,8 @@ function updateAppGradle(file) {
       lines.splice(
         index,
         0,
-        "        implementation 'cn.jiguang.sdk:jcore:3.2.4'\n" +
-          "        implementation 'cn.jiguang.sdk:jpush:4.7.2'\n" +
+        "        implementation 'cn.jiguang.sdk:jcore-google:3.2.4'\n" +
+          "        implementation 'cn.jiguang.sdk:jpush-google:4.7.2'\n" +
           "        implementation 'com.huawei.hms:push:6.3.0.304'\n" +
           "        implementation 'cn.jiguang.sdk.plugin:fcm:4.7.2'\n" +
           "        implementation 'cn.jiguang.sdk.plugin:huawei:4.7.2'\n" +
