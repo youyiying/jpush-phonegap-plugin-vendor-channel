@@ -203,22 +203,21 @@ function updateAppGradle(file) {
       lines.splice(
         index,
         0,
-        "        implementation 'cn.jiguang.sdk:jcore-google:3.2.4'\n" +
-          "        implementation 'cn.jiguang.sdk:jpush-google:4.7.2'\n" +
+        "        implementation 'cn.jiguang.sdk:jcore-google:4.2.4'\n" +
+          "        implementation 'cn.jiguang.sdk:jpush-google:5.0.4'\n" +
           "        implementation 'com.huawei.hms:push:6.3.0.304'\n" +
-          "        implementation 'cn.jiguang.sdk.plugin:fcm:4.7.2'\n" +
-          "        implementation 'cn.jiguang.sdk.plugin:huawei:4.7.2'\n" +
-          "        implementation 'cn.jiguang.sdk.plugin:meizu:4.7.2'\n" +
-          "        implementation 'cn.jiguang.sdk.plugin:vivo:4.7.2'\n" +
-          "        implementation 'cn.jiguang.sdk.plugin:oppo:4.7.2'\n" +
-          "        implementation(name: 'com.heytap.msp-push-3.0.0', ext: 'aar')\n" +
+          "        implementation 'cn.jiguang.sdk.plugin:fcm:5.0.4'\n" +
+          "        implementation 'cn.jiguang.sdk.plugin:huawei:5.0.4'\n" +
+          "        implementation 'cn.jiguang.sdk.plugin:meizu:5.0.4'\n" +
+          "        implementation 'cn.jiguang.sdk.plugin:vivo:5.0.4'\n" +
+          "        implementation 'cn.jiguang.sdk.plugin:oppo:5.0.4'\n" +
+          "        implementation(name: 'com.heytap.msp-push-3.1.0', ext: 'aar')\n" +
           "        implementation 'com.google.code.gson:gson:2.6.2'\n" +
           "        implementation 'commons-codec:commons-codec:1.6'\n" +
           "        implementation 'androidx.annotation:annotation:1.1.0'\n" +
-          "        implementation 'cn.jiguang.sdk.plugin:xiaomi:4.7.2'\n" +
-          "        implementation 'cn.jiguang.sdk.plugin:honor:4.7.2'\n" +
-          "        implementation(name: 'HiPushSdk-v6.0.4.101-release', ext: 'aar')\n" +
-          "        implementation(name: 'HiPushSdkCommon-v6.0.4.101-release', ext: 'aar')\n"
+          "        implementation 'cn.jiguang.sdk.plugin:xiaomi:5.0.4'\n" +
+          "        implementation 'cn.jiguang.sdk.plugin:honor:5.0.4'\n" +
+          "        implementation(name: 'HiPushSDK-7.0.41.301', ext: 'aar')\n"
       );
     }
     lines.splice(lines.length - 1, 0, "apply plugin: 'com.huawei.agconnect'");
