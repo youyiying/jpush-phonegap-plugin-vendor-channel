@@ -1,5 +1,5 @@
 {
-  "name": "jpush-phonegap-plugin-vendor-channel",
+  "name": "@youyiying/jpush-phonegap-plugin-vendor-channel",
   "version": "1.1.2",
   "description": "极光推送厂商通道集成Cordova插件",
   "cordova": {
@@ -11,7 +11,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/site-chenwei/jpush-phonegap-plugin-vendor-channel"
+    "url": "https://github.com/youyiying/jpush-phonegap-plugin-vendor-channel"
   },
   "keywords": [
     "JPush",
@@ -42,7 +42,7 @@
   "author": "chenwei116057@gmail.com",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/site-chenwei/jpush-phonegap-plugin-vendor-channel/issues"
+    "url": "https://github.com/youyiying/jpush-phonegap-plugin-vendor-channel/issues"
   },
-  "homepage": "https://github.com/site-chenwei/jpush-phonegap-plugin-vendor-channel#readme"
+  "homepage": "https://github.com/youyiying/jpush-phonegap-plugin-vendor-channel#readme"
 }
