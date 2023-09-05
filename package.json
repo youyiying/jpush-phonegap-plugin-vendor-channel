@@ -1,9 +1,9 @@
 {
   "name": "@youyiying/jpush-phonegap-plugin-vendor-channel",
-  "version": "1.1.2",
+  "version": "1.1.3",
   "description": "极光推送厂商通道集成Cordova插件",
   "cordova": {
-    "id": "jpush-phonegap-plugin-vendor-channel",
+    "id": "@youyiying/jpush-phonegap-plugin-vendor-channel",
     "platforms": [
       "ios",
       "android"
